@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>test</title>
+    </head>
+    <body>
+        <ul>
+        {% for animal in animals %}
+            {% if animal.favorite %}
+                <li>{{ animal.name }} is my favorite!</li>
+            {% endif %}
+        {% endfor %}
+    </ul>
+    </body>
+</html>
