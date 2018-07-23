@@ -1,2 +1,2 @@
 # express-exercise
-exercises for DC Node.js express
+Basic exercises for Node.js and Express from DigitalCrafts class
